@@ -1,0 +1,11 @@
+1. read taxdata.xlsx
+2. Remove duplicate records
+3. cst length should be 10. if it is different
+then mark it as invalid
+4. Find the change in the tax (percentage change) 
+by comparing tax2017 and tax2018.
+5. create new column called change in tax and populate
+the change
+6. Find the citiwise summary of tax
+7. If any data is empty update it as with word empty
+

@@ -1,0 +1,66 @@
+pip install pandas
+pip install numpy
+
+https://www.dataquest.io/m/291/introduction-to-pandas
+
+https://www.dataquest.io/m/289/introduction-to-numpy
+
+
+https://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/
+
+https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+
+https://www.geeksforgeeks.org/introduction-machine-learning-using-python/
+https://www.listendata.com/2017/12/python-pandas-tutorial.html
+
+AtoZ of Machine Learning
+https://www.superdatascience.com/machine-learning/
+
+Simple linear Regression
+
+
+y = bzero +bone*xone
+
+y - Dependent variable (DV)
+salary changes with experience
+what grade based on hours of study
+
+x1 ->independent variables
+years of experience
+b1 -> co-efficent for independent variable - slope
+bo -intersection of y axis with x axis - constant
+
+https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer
+
+https://towardsdatascience.com/a-machine-learning-approach-building-a-hotel-recommendation-engine-6812bfd53f50
+
+https://towardsdatascience.com/september-edition-machine-learning-case-studies-a3a61dc94f23
+
+https://towardsdatascience.com/clustering-algorithms-for-customer-segmentation-af637c6830ac
+
+https://towardsdatascience.com/model-performance-cost-functions-for-classification-models-a7b1b00ba60
+
+http://www.statisticshowto.com/
+
+http://www.statisticshowto.com/probability-and-statistics/regression-analysis/find-a-linear-regression-equation/
+
+http://www.algebraden.com/types-of-degree-in-polynomials.htm
+
+https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/
+
+https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/
+
+https://www.analyticsvidhya.com/blog/2014/06/introduction-random-forest-simplified/
+
+https://www.youtube.com/watch?v=uAAhnOdTUs8
+
+https://www.microsoft.com/en-us/research/video/real-time-human-pose-recognition-in-parts-from-single-depth-images-2/
+
+https://www.edureka.co/blog/random-forest-classifier/
+
+https://www.edureka.co/blog/what-is-data-science/
+
+https://www.saedsayad.com/clustering_kmeans.htm
+
+https://www.datacamp.com/community/tutorials/python-numpy-tutorial

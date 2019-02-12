@@ -1,0 +1,759 @@
+Course Content
+
+Search course content
+Section: 1
+3 / 8
+Welcome to the course!
+Section: 2
+6 / 12
+-------------------- Part 1: Data Preprocessing --------------------
+9. Welcome to Part 1 - Data Preprocessing
+1:35
+10. Get the dataset
+6:58
+11. Importing the Libraries
+5:20
+12. Importing the Dataset
+11:55
+13. For Python learners, summary of Object-oriented programming: classes & objects
+14. Missing Data
+15:57
+15. Categorical Data
+18:01
+16. WARNING - Update
+17. Splitting the Dataset into the Training set and Test set
+17:37
+18. Feature Scaling
+15:36
+19. And here is our Data Preprocessing Template!
+8:48
+Quiz 1: Data Preprocessing
+Section: 3
+1 / 1
+-------------------- Part 2: Regression --------------------
+Section: 4
+8 / 13
+Simple Linear Regression
+Section: 5
+13 / 22
+Multiple Linear Regression
+Section: 6
+4 / 12
+Polynomial Regression
+Section: 7
+0 / 4
+Support Vector Regression (SVR)
+Section: 8
+0 / 4
+Decision Tree Regression
+Section: 9
+0 / 4
+Random Forest Regression
+Section: 10
+0 / 5
+Evaluating Regression Models Performance
+Section: 11
+0 / 1
+-------------------- Part 3: Classification --------------------
+Section: 12
+0 / 15
+Logistic Regression
+Section: 13
+0 / 5
+K-Nearest Neighbors (K-NN)
+Section: 14
+0 / 4
+Support Vector Machine (SVM)
+Section: 15
+0 / 7
+Kernel SVM
+Section: 16
+0 / 7
+Naive Bayes
+Section: 17
+0 / 4
+Decision Tree Classification
+Section: 18
+0 / 4
+Random Forest Classification
+Section: 19
+0 / 6
+Evaluating Classification Models Performance
+Section: 20
+0 / 1
+-------------------- Part 4: Clustering --------------------
+Section: 21
+0 / 7
+K-Means Clustering
+Section: 22
+0 / 16
+Hierarchical Clustering
+Section: 23
+0 / 1
+-------------------- Part 5: Association Rule Learning --------------------
+Section: 24
+0 / 8
+Apriori
+Section: 25
+0 / 3
+Eclat
+Section: 26
+0 / 1
+-------------------- Part 6: Reinforcement Learning --------------------
+Section: 27
+0 / 11
+Upper Confidence Bound (UCB)
+Section: 28
+0 / 7
+Thompson Sampling
+Section: 29
+0 / 25
+-------------------- Part 7: Natural Language Processing --------------------
+Section: 30
+0 / 2
+-------------------- Part 8: Deep Learning --------------------
+Section: 31
+0 / 24
+Artificial Neural Networks
+Section: 32
+0 / 21
+Convolutional Neural Networks
+Section: 33
+0 / 1
+-------------------- Part 9: Dimensionality Reduction --------------------
+Section: 34
+0 / 8
+Principal Component Analysis (PCA)
+Section: 35
+0 / 4
+Linear Discriminant Analysis (LDA)
+Section: 36
+0 / 3
+Kernel PCA
+Section: 37
+0 / 1
+-------------------- Part 10: Model Selection & Boosting --------------------
+Section: 38
+0 / 6
+Model Selection
+Section: 39
+0 / 4
+XGBoost
+Section: 40
+1 / 1
+Bonus Lectures
+We're testing translated captions for this lecture
+Questions
+Search for a question:
+Search for a question
+541 questions in this lecture
+
+AS
+Strange approach
+You use Pandas to import your data, but immediately after you transform your dataset in array. You don't like Pandas ? [image]
+after opening setion 2 in dataprocessing, i dont get any file in folder
+after openin folder secton 2 in data processing, i dont get any file in section 2..
+YP
+Data.csv error
+Why data.csv just contain 10x1 matrix ?? not as seen in video 10x4 [image]
+MS
+How to implement bag of words model to create data matrix ?
+implementation of bag of words model to create data matrix to train algo
+TS
+array objects not supported. problem with x
+[image]
+GK
+Error with X
+[image]Hello. I had some errors, so just want to make sure that this version would be ok.1. I couldn't use dataset - my exel put everything in one column. So I inserted it manually. Is that fine?2. Also it was showing mistake with X (about the array). I made it with df.If those modifications change something very drastically or not? The output is the one that we were supposed to get anyway.Thanks. I am just curious.
+AB
+Choose a file in python
+Is there any other way to choose a particular file or dataset instead of using 'Data.csv' in python ?
+MP
+Why is the weightage irrelevant in R?
+In Python country was transformed to 3 columns due to ML applying weightage however in R it was kept as 1,2&3? Why is the weightage not a problem in R?
+X array values are not displayed in Variable Explorer
+hi as shown in the tutorial after executing the command X=dataset.iloc[:, :-1].values , the data is not displayed in variable explorer, under value column it is displaying "ndarray object of numpy module"
+I
+depended variable is in middle.
+if my depended variable is in the middle, and using iloc i need to just exclude my depending variable.how to write the code then.
+VM
+I am not getting the array as return value and I cannot see my array X.and also in variable section Icannot see my array values
+[image]
+AS
+error when pressing cmd+ctrl+enter
+the error happen when I press those 3 button combinations, NameError: name 'pd' is not definedbut when I hit run > run it works and the dataset was imported. whats the problem?
+FK
+why we have separated the dependent variable-(Purchased) from the entire dataset?
+In python we are separating the Purchased column whereas in R we are not separating it. I am not understanding the reason behind creating X and Y. kindly suggest
+AS
+no support for ubantu or linux
+you don't explain how to set working directory in linux ubantu
+KO
+dataset.iloc
+sir could you pls explain more on this line of code 'dataset.iloc'
+Question Details
+ 
+Hello and welcome to this tutorial in the previous tutorial we learnt how to import the libraries.
+
+And in this one we're going to learn how to import the data set.
+
+So this time we're going to have to do it both in Python and our.
+
+So let's start with Python.
+
+I'm going to jump straight to Python.
+
+Here we are.
+
+OK.
+
+So the first thing to do before starting to import a data set is of course to set a working directory
+
+and that's the case any time you want to import the data set you have to specify a working directory
+
+folder and that must be the folder that contains your data set.
+
+So to send this folder as working directory it's very simple what you need to do is to go to File Explorer
+
+here because this is the window where you can go to all the files in your computer.
+
+So right now as you can see I'm on my desktop and this is the machine A-Z folder on my desktop.
+
+So let's go inside inside just for that we have to parts and we are in part one data pre-processing
+
+So let's open this subfolder.
+
+Here we go.
+
+And as for the content just one section let's open it.
+
+And that is the folder we want to set as a working directory.
+
+And why is that it because it contains the data.
+
+Yes we file you know you can set any folder you want as working directory as long as they have the data
+
+as he has before.
+
+So once you reached this right folder in the file explorer window then you have two options.
+
+For those of you who are working on a Mac while you have this little button here to set this folder
+
+as a working directory and you just need to click on it as I just did.
+
+And now this folder is set as a working directory.
+
+So that's the first option.
+
+If you have this little button here on your screen Well you can click on it to set the folder as working
+
+directory and then for those of you who are on Windows then this option here might not work for you
+
+.
+
+So what you need to do is also very simple.
+
+You just need to save your pipe and file it into the folder that contains the data set data.
+
+That's easy.
+
+And to save your life in fact you just need to click on here and if you did not say it before well you
+
+will automatically have a window that will ask you to choose where to send your file and once despised
+
+and file is saved in your folder that contains the data set data dots V.
+
+Well what you need to do is simply click on this little button here which as you can see is to run the
+
+whole file.
+
+And that will automatically set your folder as working directory and actually there is a shortcut to
+
+do it even faster.
+
+It's instead of clicking on this button here you just need to press 5 and that will execute the whole
+
+file and set your folder as working directory at the same time.
+
+So you have the two options for Mac users you can click on this one year and for Windows users you save
+
+your file in the folder that contains the data set and then you execute the saved file by pressing F5
+
+.
+
+Even if the file is empty and for both of you that will set your father as a working directory.
+
+So as I explained in a previous tutorial the best library to import the data set is pandas.
+
+So right now we're going to use pandas to import the data set.
+
+We're going to declare a new variable that is going to be the data set itself and we going to simply
+
+call it data sets.
+
+OK.
+
+Then equals and now immediately we will use spenda to import the data that says we did it.
+
+So what we have to do is use the shortcut PD that is the shorthand for Penders.
+
+Then you type dot and then read underscore C as we found this.
+
+And in the parenthesis you input the name of your data set which is of course data that as we quote
+
+parenthesis.
+
+All good.
+
+That's perfect.
+
+So let's select this line here and press command control pass enter to execute.
+
+OK.
+
+As you can see in the count so the line of code was executed correctly so that means that we correctly
+
+imported our data dataset and if we go to variable x for now here we can see that the dataset is actually
+
+here.
+
+And if we double click on it here is the dataset.
+
+So we have our four columns country age salary per chased.
+
+And we have our 10 observations.
+
+So you have to understand that indexes in Python start at zero.
+
+So here the first observation index is zero.
+
+That's that's fine.
+
+And that's where we're going to see that in our indexes at one.
+
+But in Boston you have to get used to the fact that indexes start at zero.
+
+So we have our 10 observations.
+
+If you're not very comfortable with the scientific notation we can change that.
+
+Actually I'm I would prefer you know the float number itself.
+
+So we're going to click on format.
+
+So here we're going to change the 3 to zero to have no decimal after the comma.
+
+And we are going to change to g to F to have a float.
+
+And when we click on OK we have our salary this way which some of you might prefer.
+
+OK so we're fine with our data set.
+
+Now let's click on OK.
+
+And now there is something very important to understand in machine learning in Python it's that we have
+
+a data set but we need to distinguish the matrix of features and the dependent variable vector.
+
+So right now what we're going to do is we're going to create the matrix of features that if I go back
+
+to my dataset here we are going to create the matrix of the three independent variables.
+
+So basically we're going to put in a variable x there there's going to be the matrix.
+
+All those observations here so basically the three cons here the three first columns which are the independent
+
+variables columns and the 10 lines which are the 10 observations and then we will create the dependent
+
+variable vector which is going to be the last column here with the 10 observations.
+
+OK so let's do this let's click on OK and let's start by creating our matrix of features.
+
+OK so we're going to call it X equals and then we're going to use the data set variable that we just
+
+created then dot and we're going to take all the columns of features the columns of independent variables
+
+and to do this we're going to type I like then brackets and then colon come up call them minus 1.
+
+So don't worry about that.
+
+I'll explain everything.
+
+And then dart values.
+
+Ok what did we just do here by putting the code in here.
+
+That means that we take all the lines because what's on the left of this coming here is the lines of
+
+the data set and what's on the right of this comma other columns.
+
+So by putting this code in here that means that we take all the lines and then at the right of this
+
+come up we typed call column minus 1.
+
+So that means that we take all the columns except the last one minus one means that we don't include
+
+the last one and column and so we take all the columns so column minus one means that we take all the
+
+columns except the last one.
+
+OK.
+
+And that values means that we want to take all the values that just the Python syntax and that's how
+
+it works.
+
+So we're going to see.
+
+Let's select this line and execute.
+
+Here it is the X matrix was imported correctly.
+
+And now let's stop here X in the council and as you can see we have our three first columns the three
+
+first comes out of the dataset as you can see here the common country a salary country age salary.
+
+And we don't have the last column purchased.
+
+That's good that's our matrix that's the matrix of features of matrix of independent variables.
+
+And you will understand step by step why we need to do this in python.
+
+OK so I'm going to click on OK here and now what we have to do is to create the dependent variable vector
+
+.
+
+So we're going to call it.
+
+Y equals.
+
+And now we're going to do exactly the same thing.
+
+So I'm going to copy this line here and paste it here.
+
+And we want to take the last column so it's going to be the same.
+
+We're going to take all the lines here with the cone here and here at the right of the comma.
+
+Are going to choose the last column which is.
+
+So we have two input here.
+
+The index of the last column.
+
+So let's go to our dataset and find what it is.
+
+So as I said earlier indexes in Python start at zero.
+
+So indexed for country is zero index for age is one index for salary is to an index pre-purchased is
+
+3.
+
+So here since we won the last column we're going to input three and we'll be fine.
+
+Let's select this line come out of control plus enter to execute.
+
+Here it is.
+
+Here's the why let's type Y here and press enter.
+
+And here it is we have our last call them.
+
+No yes no.
+
+This is the pre-Chase columns that I remind tell us if yes or no.
+
+The customer.
+
+But the product.
+
+OK so that's it for Python.
+
+We imported the data set and prepared the data correctly.
+
+Now we're going to jump to our and see how we have to do it and you're going to see that it will be
+
+much more simple because we won't have to make a distinction between the matrix of features and the
+
+dependent variable vector.
+
+So let's go to our.
+
+OK.
+
+So here I am on R and ask for python we need to set the working directory so to do this we have to go
+
+to files here.
+
+Here I'm on my desktop.
+
+So let's go to our folder data pre-processing part 1.
+
+Here it is Section 2 and this is the rifle that contains the data data that is we.
+
+So this is the folder that you want to choose to set as a working directory.
+
+And now to set this working directory on our you need to do one more thing you need to click on this
+
+more button here and click on set as a working directory.
+
+And here it is.
+
+Now we know that this is the right working directory and we are ready to start importing the data set
+
+.
+
+OK so to do this in are what we need to do is very simple we will just need one line of code.
+
+So as in Python we're going to call it data set.
+
+So that's the variable that will be the data set itself.
+
+And now we import a dataset is very easy to type read dot see as read.
+
+And then in parenthesis you just type the name of your dataset in quotes.
+
+So here you have to type data that C as V and that's it.
+
+That's all you need to do.
+
+So now we're going to select this line of code and execute OK.
+
+So let's have a look at our data set to do this you just need to click here on the dataset and it just
+
+displays here.
+
+OK.
+
+So we have our four columns.
+
+Country age salary pre-Chase and R-Tenn. observations.
+
+And what's interesting to see here is that unlike Python indexes don't start at zero but at one.
+
+So that's why the first observations start at 1 here and ends at 10.
+
+So that's the second section you have to understand between Python and are of course you don't have
+
+to program on both.
+
+You can choose the one you prefer.
+
+But if you want to program on both as I usually do it's good to have this distinction in mind.
+
+OK so we have already said it's all fine.
+
+And as I just said here we don't have to make the distinction between a matrix of features and a dependent
+
+variable vector.
+
+And this will make perfect sense for you as we go along with this part 1 data pre-processing you'll
+
+perfectly understand why next tutorials.
+
+OK so that's it for the importing the data set step of the data preprocessing phase.
+
+So that's it for this tutorial.
+
+I look forward to seeing you in the next one which will be to learn how to take care of missing data
+
+because sometimes your dataset will contain missing data and you have to take care of this.
+
+And that's what we're going to learn in the next tutorial.
+
+So I look forward to seeing you there.
+
+And until then unjoin machine learning
+
+ Autoscroll active
+Improve captions
+Edit and submit for approval 
+
+Hello and welcome to this tutorial in the previous tutorial we learnt how to import the libraries.
+And in this one we're going to learn how to import the data set.
+So this time we're going to have to do it both in Python and our.
+So let's start with Python.
+I'm going to jump straight to Python.
+Here we are.
+OK.
+So the first thing to do before starting to import a data set is of course to set a working directory
+and that's the case any time you want to import the data set you have to specify a working directory
+folder and that must be the folder that contains your data set.
+So to send this folder as working directory it's very simple what you need to do is to go to File Explorer
+here because this is the window where you can go to all the files in your computer.
+So right now as you can see I'm on my desktop and this is the machine A-Z folder on my desktop.
+So let's go inside inside just for that we have to parts and we are in part one data pre-processing
+So let's open this subfolder.
+Here we go.
+And as for the content just one section let's open it.
+And that is the folder we want to set as a working directory.
+And why is that it because it contains the data.
+Yes we file you know you can set any folder you want as working directory as long as they have the data
+as he has before.
+So once you reached this right folder in the file explorer window then you have two options.
+For those of you who are working on a Mac while you have this little button here to set this folder
+as a working directory and you just need to click on it as I just did.
+And now this folder is set as a working directory.
+So that's the first option.
+If you have this little button here on your screen Well you can click on it to set the folder as working
+directory and then for those of you who are on Windows then this option here might not work for you
+.
+So what you need to do is also very simple.
+You just need to save your pipe and file it into the folder that contains the data set data.
+That's easy.
+And to save your life in fact you just need to click on here and if you did not say it before well you
+will automatically have a window that will ask you to choose where to send your file and once despised
+and file is saved in your folder that contains the data set data dots V.
+Well what you need to do is simply click on this little button here which as you can see is to run the
+whole file.
+And that will automatically set your folder as working directory and actually there is a shortcut to
+do it even faster.
+It's instead of clicking on this button here you just need to press 5 and that will execute the whole
+file and set your folder as working directory at the same time.
+So you have the two options for Mac users you can click on this one year and for Windows users you save
+your file in the folder that contains the data set and then you execute the saved file by pressing F5
+.
+Even if the file is empty and for both of you that will set your father as a working directory.
+So as I explained in a previous tutorial the best library to import the data set is pandas.
+So right now we're going to use pandas to import the data set.
+We're going to declare a new variable that is going to be the data set itself and we going to simply
+call it data sets.
+OK.
+Then equals and now immediately we will use spenda to import the data that says we did it.
+So what we have to do is use the shortcut PD that is the shorthand for Penders.
+Then you type dot and then read underscore C as we found this.
+And in the parenthesis you input the name of your data set which is of course data that as we quote
+parenthesis.
+All good.
+That's perfect.
+So let's select this line here and press command control pass enter to execute.
+OK.
+As you can see in the count so the line of code was executed correctly so that means that we correctly
+imported our data dataset and if we go to variable x for now here we can see that the dataset is actually
+here.
+And if we double click on it here is the dataset.
+So we have our four columns country age salary per chased.
+And we have our 10 observations.
+So you have to understand that indexes in Python start at zero.
+So here the first observation index is zero.
+That's that's fine.
+And that's where we're going to see that in our indexes at one.
+But in Boston you have to get used to the fact that indexes start at zero.
+So we have our 10 observations.
+If you're not very comfortable with the scientific notation we can change that.
+Actually I'm I would prefer you know the float number itself.
+So we're going to click on format.
+So here we're going to change the 3 to zero to have no decimal after the comma.
+And we are going to change to g to F to have a float.
+And when we click on OK we have our salary this way which some of you might prefer.
+OK so we're fine with our data set.
+Now let's click on OK.
+And now there is something very important to understand in machine learning in Python it's that we have
+a data set but we need to distinguish the matrix of features and the dependent variable vector.
+So right now what we're going to do is we're going to create the matrix of features that if I go back
+to my dataset here we are going to create the matrix of the three independent variables.
+So basically we're going to put in a variable x there there's going to be the matrix.
+All those observations here so basically the three cons here the three first columns which are the independent
+variables columns and the 10 lines which are the 10 observations and then we will create the dependent
+variable vector which is going to be the last column here with the 10 observations.
+OK so let's do this let's click on OK and let's start by creating our matrix of features.
+OK so we're going to call it X equals and then we're going to use the data set variable that we just
+created then dot and we're going to take all the columns of features the columns of independent variables
+and to do this we're going to type I like then brackets and then colon come up call them minus 1.
+So don't worry about that.
+I'll explain everything.
+And then dart values.
+Ok what did we just do here by putting the code in here.
+That means that we take all the lines because what's on the left of this coming here is the lines of
+the data set and what's on the right of this comma other columns.
+So by putting this code in here that means that we take all the lines and then at the right of this
+come up we typed call column minus 1.
+So that means that we take all the columns except the last one minus one means that we don't include
+the last one and column and so we take all the columns so column minus one means that we take all the
+columns except the last one.
+OK.
+And that values means that we want to take all the values that just the Python syntax and that's how
+it works.
+So we're going to see.
+Let's select this line and execute.
+Here it is the X matrix was imported correctly.
+And now let's stop here X in the council and as you can see we have our three first columns the three
+first comes out of the dataset as you can see here the common country a salary country age salary.
+And we don't have the last column purchased.
+That's good that's our matrix that's the matrix of features of matrix of independent variables.
+And you will understand step by step why we need to do this in python.
+OK so I'm going to click on OK here and now what we have to do is to create the dependent variable vector
+.
+So we're going to call it.
+Y equals.
+And now we're going to do exactly the same thing.
+So I'm going to copy this line here and paste it here.
+And we want to take the last column so it's going to be the same.
+We're going to take all the lines here with the cone here and here at the right of the comma.
+Are going to choose the last column which is.
+So we have two input here.
+The index of the last column.
+So let's go to our dataset and find what it is.
+So as I said earlier indexes in Python start at zero.
+So indexed for country is zero index for age is one index for salary is to an index pre-purchased is
+3.
+So here since we won the last column we're going to input three and we'll be fine.
+Let's select this line come out of control plus enter to execute.
+Here it is.
+Here's the why let's type Y here and press enter.
+And here it is we have our last call them.
+No yes no.
+This is the pre-Chase columns that I remind tell us if yes or no.
+The customer.
+But the product.
+OK so that's it for Python.
+We imported the data set and prepared the data correctly.
+Now we're going to jump to our and see how we have to do it and you're going to see that it will be
+much more simple because we won't have to make a distinction between the matrix of features and the
+dependent variable vector.
+So let's go to our.
+OK.
+So here I am on R and ask for python we need to set the working directory so to do this we have to go
+to files here.
+Here I'm on my desktop.
+So let's go to our folder data pre-processing part 1.
+Here it is Section 2 and this is the rifle that contains the data data that is we.
+So this is the folder that you want to choose to set as a working directory.
+And now to set this working directory on our you need to do one more thing you need to click on this
+more button here and click on set as a working directory.
+And here it is.
+Now we know that this is the right working directory and we are ready to start importing the data set
+.
+OK so to do this in are what we need to do is very simple we will just need one line of code.
+So as in Python we're going to call it data set.
+So that's the variable that will be the data set itself.
+And now we import a dataset is very easy to type read dot see as read.
+And then in parenthesis you just type the name of your dataset in quotes.
+So here you have to type data that C as V and that's it.
+That's all you need to do.
+So now we're going to select this line of code and execute OK.
+So let's have a look at our data set to do this you just need to click here on the dataset and it just
+displays here.
+OK.
+So we have our four columns.
+Country age salary pre-Chase and R-Tenn. observations.
+And what's interesting to see here is that unlike Python indexes don't start at zero but at one.
+So that's why the first observations start at 1 here and ends at 10.
+So that's the second section you have to understand between Python and are of course you don't have
+to program on both.
+You can choose the one you prefer.
+But if you want to program on both as I usually do it's good to have this distinction in mind.
+OK so we have already said it's all fine.
+And as I just said here we don't have to make the distinction between a matrix of features and a dependent
+variable vector.
+And this will make perfect sense for you as we go along with this part 1 data pre-processing you'll
+perfectly understand why next tutorials.
+OK so that's it for the importing the data set step of the data preprocessing phase.
+So that's it for this tutorial.
+I look forward to seeing you in the next one which will be to learn how to take care of missing data
+because sometimes your dataset will contain missing data and you have to take care of this.
+And that's what we're going to learn in the next tutorial.
+So I look forward to seeing you there.
+And until then unjoin machine learning
+
+ 
