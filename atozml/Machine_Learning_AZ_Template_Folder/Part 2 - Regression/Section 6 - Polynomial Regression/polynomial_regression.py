@@ -59,8 +59,10 @@ plt.xlabel('Position level')
 plt.ylabel('Salary')
 plt.show()
 
+#np.array([6.5])
 # Predicting a new result with Linear Regression
-lin_reg.predict(6.5)
+lin_reg.predict(np.array([[6.5]],dtype='float'))
+#np.array([[1, 2, 4], [5, 8, 7]], dtype = 'float')
 
 # Predicting a new result with Polynomial Regression
-lin_reg_2.predict(poly_reg.fit_transform(6.5))
+lin_reg_2.predict(poly_reg.fit_transform(np.array([[6.5]])))

@@ -9,6 +9,7 @@ https://www.listendata.com/2017/12/python-pandas-tutorial.html
 #Importing pandas library
 import pandas as pd;
 #Importing Dataset
+
 income = pd.read_csv("income.csv");
 print(income);
 type(income)

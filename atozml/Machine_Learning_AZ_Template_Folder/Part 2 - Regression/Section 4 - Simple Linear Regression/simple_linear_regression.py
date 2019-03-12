@@ -7,12 +7,14 @@ import pandas as pd
 
 # Importing the dataset
 dataset = pd.read_csv('Salary_Data.csv')
+print(dataset)
 X = dataset.iloc[:,:-1].values
 #X = dataset.iloc[:,0].values
 y = dataset.iloc[:, 1].values
 
 # Splitting the dataset into the Training set and Test set
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
+#from sklearn.cross_validation import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/3, random_state = 0)
 
 # Feature Scaling
@@ -46,6 +48,14 @@ plt.title('Salary vs Experience (Test set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
+
+#calculating the residual
+from sklearn import metrics
+print('MAE:',metrics.mean_absolute_error(y_test,y_pred))
+print('MSE:',metrics.mean_squared_error(y_test,y_pred))
+print('RMSE:',np.sqrt(metrics.mean_absolute_error(y_test,y_pred)))
+
+
 
 #prediction on my own dataset
 my_data = {'YearsExperience': ['11', '12', '13'],

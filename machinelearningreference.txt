@@ -64,3 +64,15 @@ https://www.edureka.co/blog/what-is-data-science/
 https://www.saedsayad.com/clustering_kmeans.htm
 
 https://www.datacamp.com/community/tutorials/python-numpy-tutorial
+
+https://towardsdatascience.com/data-science-simplified-simple-linear-regression-models-3a97811a6a3d
+
+https://datatofish.com/multiple-linear-regression-python/
+
+linear regression
+https://towardsdatascience.com/data-science-simplified-simple-linear-regression-models-3a97811a6a3d
+https://becominghuman.ai/data-science-simplified-principles-and-process-b06304d63308
+
+
+https://www.slideshare.net/teoliphant/python-for-data-science-with-anaconda
+
