@@ -90,7 +90,7 @@ def main():
 	# creating object of TwitterClient Class 
 	api = TwitterClient() 
 	# calling function to get tweets 
-	tweets = api.get_tweets(query = 'Donald Trump', count = 200) 
+	tweets = api.get_tweets(query = 'narendra modi', count = 200) 
 
 	# picking positive tweets from tweets 
 	ptweets = [tweet for tweet in tweets if tweet['sentiment'] == 'positive'] 
@@ -101,7 +101,7 @@ def main():
 	# percentage of negative tweets 
 	print("Negative tweets percentage: {} %".format(100*len(ntweets)/len(tweets))) 
 	# percentage of neutral tweets 
-	print("Neutral tweets percentage: {} %".format(100*len(tweets - ntweets - ptweets)/len(tweets))) 
+	#print("Neutral tweets percentage: {} %".format(100*len(tweets - ntweets - ptweets)/len(tweets))) 
 
 	# printing first 5 positive tweets 
 	print("\n\nPositive tweets:") 
